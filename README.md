@@ -255,4 +255,4 @@ paper's authors.
 
 ## License
 
-MIT (see `LICENSE`) — update if you'd prefer something else.
+MIT (see `LICENSE`)
