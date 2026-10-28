@@ -1,0 +1,85 @@
+
+ALL SAMPLES | reference = REVERBERANT target image (train.py's target)  (n=600 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.763        5.07          -  
+MWNG            -2.48   0.723        0.10        -4.98
+DMA-I           -8.40   0.620      -10.30       -15.37
+DMA-II          -6.90   0.666       -6.92       -11.99
+DMA-III         -6.02   0.684       -5.35       -10.42
+DMA-IV          -5.76   0.688       -4.91        -9.98
+ACC             -2.82   0.717       -1.16        -6.23
+BeamFusion      -2.35   0.714       -0.72        -5.80
+  [reverb] T60 in [0.2, 0.4) s  (n=210 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.779        4.82          -  
+MWNG            -1.58   0.782        1.63        -3.19
+DMA-I           -6.73   0.703       -6.32       -11.14
+DMA-II          -5.12   0.755       -3.54        -8.36
+DMA-III         -4.26   0.770       -2.20        -7.02
+DMA-IV          -4.01   0.773       -1.82        -6.64
+ACC             -1.65   0.795        0.79        -4.04
+BeamFusion      -1.08   0.799        1.37        -3.45
+  [reverb] T60 in [0.4, 0.6) s  (n=195 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.765        5.11          -  
+MWNG            -2.64   0.726       -0.11        -5.22
+DMA-I           -8.60   0.614      -10.80       -15.91
+DMA-II          -7.10   0.660       -7.26       -12.38
+DMA-III         -6.23   0.680       -5.66       -10.77
+DMA-IV          -5.97   0.684       -5.20       -10.31
+ACC             -3.04   0.714       -1.42        -6.53
+BeamFusion      -2.66   0.709       -1.16        -6.27
+  [reverb] T60 in [0.6, 0.8) s  (n=195 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.742        5.30          -  
+MWNG            -3.28   0.658       -1.35        -6.65
+DMA-I           -9.99   0.536      -14.08       -19.38
+DMA-II          -8.60   0.577      -10.21       -15.51
+DMA-III         -7.71   0.597       -8.45       -13.75
+DMA-IV          -7.43   0.602       -7.94       -13.24
+ACC             -3.88   0.638       -2.99        -8.29
+BeamFusion      -3.40   0.628       -2.55        -7.85
+ALL SAMPLES | reference = DIRECT-PATH only (paper's wording)  (n=600 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)   | paper T60=300: dSNR  STOI  dSI-SDR
+Noisy             -     0.625       -6.54          -     |    -     0.58     -  
+MWNG             2.11   0.694       -4.91         1.63   |   0.28   0.62    0.22
+DMA-I           -2.27   0.651      -10.56        -4.02   |   5.31   0.69    5.50
+DMA-II          -0.97   0.683       -8.98        -2.44   |   6.02   0.71    6.16
+DMA-III         -0.25   0.689       -8.11        -1.57   |   4.58   0.69    4.68
+DMA-IV          -0.05   0.690       -7.84        -1.30   |   4.95   0.69    5.06
+ACC              3.22   0.717       -4.56         1.98   |   6.56   0.73    6.61
+BeamFusion       5.03   0.732       -3.42         3.12   |  10.24   0.74    7.13
+  [direct] T60 in [0.2, 0.4) s  (n=210 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.682       -4.16          -  
+MWNG             1.59   0.736       -2.74         1.42
+DMA-I           -1.41   0.727       -6.26        -2.10
+DMA-II          -0.13   0.762       -4.85        -0.69
+DMA-III          0.48   0.765       -4.20        -0.04
+DMA-IV           0.63   0.764       -4.06         0.09
+ACC              3.11   0.780       -1.77         2.39
+BeamFusion       4.68   0.792       -0.57         3.58
+  [direct] T60 in [0.4, 0.6) s  (n=195 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.622       -7.09          -  
+MWNG             2.08   0.688       -5.54         1.55
+DMA-I           -2.19   0.645      -11.37        -4.28
+DMA-II          -0.90   0.675       -9.80        -2.71
+DMA-III         -0.19   0.680       -8.67        -1.58
+DMA-IV           0.01   0.681       -8.44        -1.35
+ACC              3.24   0.709       -5.15         1.94
+BeamFusion       5.01   0.724       -4.10         2.99
+  [direct] T60 in [0.6, 0.8) s  (n=195 samples)
+Method       dSNR(dB)    STOI  SI-SDR(dB)  dSI-SDR(dB)
+Noisy             -     0.565       -8.55          -  
+MWNG             2.69   0.654       -6.60         1.95
+DMA-I           -3.27   0.574      -14.39        -5.83
+DMA-II          -1.94   0.607      -12.61        -4.05
+DMA-III         -1.10   0.616      -11.76        -3.21
+DMA-IV          -0.84   0.618      -11.31        -2.76
+ACC              3.33   0.658       -6.98         1.58
+BeamFusion       5.43   0.675       -5.80         2.75
+
+DRR of the reverberant reference (direct / reverberation, mean over 600 samples): -4.75 dB  (min -10.04, max +2.16)
+
+mean BeamFusion weight per beam (sums to 1): MWNG 0.316  DMA-I 0.343  DMA-II 0.076  DMA-III 0.135  DMA-IV 0.129
