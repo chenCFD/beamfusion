@@ -1,0 +1,83 @@
+absl-py==2.5.1
+audioread==3.1.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.2
+cloudpickle==3.1.2
+contourpy @ file:///home/task_176364362873675/conda-bld/contourpy_1763643921742/work
+cuda-bindings==12.9.7
+cuda-pathfinder==1.6.0
+cuda-toolkit==12.6.3
+cycler @ file:///home/task_176606789349323/croot/cycler_1766067915143/work
+Cython==3.3.0
+decorator==5.3.1
+filelock==3.32.3
+fonttools @ file:///home/task_179092558673874/croot/fonttools_1790925613649/work
+fsspec==2026.7.0
+grpcio==1.84.0
+idna==3.20
+Jinja2==3.1.6
+joblib==1.6.0
+kiwisolver @ file:///home/task_bpD9e9pQT0Wbm_0/croot/kiwisolver_1786023292555/work
+lazy-loader==0.6
+librosa==0.11.0
+llvmlite==0.50.0
+Markdown==3.11.1
+MarkupSafe==3.0.3
+matplotlib==3.11.2
+mkl-service @ file:///home/task_179140490355812/croot/mkl-service_1791404948725/work
+mkl_fft @ file:///home/task_179139668169154/croot/mkl_fft_1791396721725/work
+mkl_random @ file:///home/task_179140479968746/croot/mkl_random_1791404844538/work
+mpmath==1.3.0
+msgpack==1.2.3
+narwhals==2.27.1
+networkx==3.6.1
+numba==0.68.0
+numpy @ file:///home/task_178034586575362/croot/numpy_and_numpy_base_1780345920260/work/dist/numpy-2.4.6-cp311-cp311-linux_x86_64.whl#sha256=d407f3ff160b083c215da01ba61f8297efa3d72514c67b345cdefb1e581f1c69
+nvidia-cublas-cu12==12.6.4.1
+nvidia-cuda-cupti-cu12==12.6.80
+nvidia-cuda-nvrtc-cu12==12.6.85
+nvidia-cuda-runtime-cu12==12.6.77
+nvidia-cudnn-cu12==9.10.2.21
+nvidia-cufft-cu12==11.3.0.4
+nvidia-cufile-cu12==1.11.1.6
+nvidia-curand-cu12==10.3.7.77
+nvidia-cusolver-cu12==11.7.1.2
+nvidia-cusparse-cu12==12.5.4.2
+nvidia-cusparselt-cu12==0.7.1
+nvidia-nccl-cu12==2.29.3
+nvidia-nvjitlink-cu12==12.9.86
+nvidia-nvshmem-cu12==3.4.5
+nvidia-nvtx-cu12==12.6.77
+packaging==26.3
+pesq==0.0.4
+pillow @ file:///home/task_NyM2KKWFRv2tj_0/croot/pillow_1783978933144/work
+platformdirs==4.13.3
+pooch==1.9.0
+protobuf==7.36.2
+pycparser==3.11
+pyparsing @ file:///home/task_179136507188735/croot/pyparsing_1791365111886/work
+PyQt6==6.11.0
+PyQt6_sip @ file:///home/task_177582793952007/croot/pyqt-split_1775828360951/work/pyqt_sip
+pyroomacoustics==0.10.1
+pystoi==0.4.1
+python-dateutil @ file:///croot/python-dateutil_1716495738603/work
+requests==2.34.2
+scikit-learn==1.9.1
+scipy @ file:///home/task_177627769554013/croot/scipy_1776277735967/work/dist/scipy-1.17.1-cp311-cp311-linux_x86_64.whl#sha256=095e3bbfe2fbd73f11c8355d4adddff7ef7f26d6644ba56298215411874d34da
+sip @ file:///home/task_177080690330752/croot/sip_1770807534460/work
+six @ file:///croot/six_1744271502820/work
+soundfile==0.14.0
+soxr==1.1.0
+sympy==1.14.0
+tensorboard==2.21.0
+tensorboard-data-server==0.7.2
+threadpoolctl==3.7.0
+torch==2.14.1+cu126
+torchrir==3.0.1
+tornado @ file:///home/task_179085220952379/croot/tornado_1790852254344/work
+tqdm==4.70.1
+triton==3.8.0
+typing_extensions==4.16.0
+urllib3==2.8.0
+Werkzeug==3.1.9

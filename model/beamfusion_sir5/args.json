@@ -1,0 +1,22 @@
+{
+  "feat_root": "/mnt/g/beamfusion/features",
+  "out_dir": "runs/beamfusion_sir5",
+  "epochs": 200,
+  "batch_size": 30,
+  "lr": 0.001,
+  "min_lr": 0.0001,
+  "lr_patience": 4,
+  "grad_clip": 5.0,
+  "val_count": 200,
+  "segment_frames": 400,
+  "num_workers": 12,
+  "seed": 0,
+  "limit_train": null,
+  "limit_val": null,
+  "limit_test": null,
+  "no_sisdr": false,
+  "resume": "runs/beamfusion_sir5/last.pt",
+  "eval_only": false,
+  "ckpt": null,
+  "log_every": 50
+}

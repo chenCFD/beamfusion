@@ -1,0 +1,18 @@
+# generated data / checkpoints / results (large, regenerable — never commit)
+data/
+runs/
+results*/
+*.wav
+*.npy
+*.pt
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
